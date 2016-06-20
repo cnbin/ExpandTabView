@@ -4,50 +4,30 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="309930256965922"
-    token="-4864894455572726650" >
+    timestamp="311176049643223"
+    token="7063036813502232904" >
 
     <task
         name="javac"
-        duration="1765" />
+        duration="1634" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="50" />
+        duration="82" />
     <task
         name="verifier"
-        duration="23" />
+        duration="13" />
 
     <artifact
-        location="/Users/wuyongmin/Desktop/菜单/ExpandTabView1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-        type="DEX" />
+        location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="308169022025930" >
+    <build timestamp="311176049643223" >
         <artifact
-            location="/Users/wuyongmin/Desktop/菜单/ExpandTabView1/app/build/outputs/apk/app-debug.apk"
+            location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="308701757453131" >
-        <artifact
-            location="/Users/wuyongmin/Desktop/菜单/ExpandTabView1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="309449095415112" >
-        <artifact
-            location="/Users/wuyongmin/Desktop/菜单/ExpandTabView1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="309657046758649" >
-        <artifact
-            location="/Users/wuyongmin/Desktop/菜单/ExpandTabView1/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build timestamp="309930256965922" >
-        <artifact
-            location="/Users/wuyongmin/Desktop/菜单/ExpandTabView1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

@@ -45,8 +45,9 @@ public class MainActivity extends Activity {
 	private void initView() {
 		
 		expandTabView = (ExpandTabView) findViewById(R.id.expandtab_view);
-		viewMiddle = new ViewMiddle(this);
+
 		viewLeft = new ViewLeft(this);
+		viewMiddle = new ViewMiddle(this);
 		viewRight = new ViewRight(this);
 
 		listView = (ListView) findViewById(R.id.listView3);
@@ -84,8 +85,8 @@ public class MainActivity extends Activity {
 
 	private void initVaule() {
 
-		mViewArray.add(viewMiddle);
 		mViewArray.add(viewLeft);
+		mViewArray.add(viewMiddle);
 		mViewArray.add(viewRight);
 
 		ArrayList<String> mTextArray = new ArrayList<String>();
@@ -94,28 +95,28 @@ public class MainActivity extends Activity {
 		mTextArray.add("距离");
 		expandTabView.setValue(mTextArray, mViewArray);
 
-		expandTabView.setTitle(viewMiddle.getShowText(), 0);
-		expandTabView.setTitle(viewLeft.getShowText(), 1);
+		expandTabView.setTitle(viewLeft.getShowText(), 0);
+		expandTabView.setTitle(viewMiddle.getShowText(), 1);
 		expandTabView.setTitle(viewRight.getShowText(), 2);
 		
 	}
 
 	private void initListener() {
 		
-		viewMiddle.setOnSelectListener(new ViewMiddle.OnSelectListener() {
+		viewLeft.setOnSelectListener(new ViewLeft.OnSelectListener() {
 
 			@Override
 			public void getValue(String distance, String showText) {
-				onRefresh(viewMiddle, showText);
+				onRefresh(viewLeft, showText);
 			}
 		});
 		
-		viewLeft.setOnSelectListener(new ViewLeft.OnSelectListener() {
+		viewMiddle.setOnSelectListener(new ViewMiddle.OnSelectListener() {
 			
 			@Override
 			public void getValue(String showText) {
 				
-				onRefresh(viewLeft,showText);
+				onRefresh(viewMiddle,showText);
 				
 			}
 		});
