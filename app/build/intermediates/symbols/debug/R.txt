@@ -352,11 +352,10 @@ int layout activity_main 0x7f030018
 int layout choose_eara_item_selector 0x7f030019
 int layout choose_item 0x7f03001a
 int layout frag_home_items 0x7f03001b
-int layout fragment_main 0x7f03001c
-int layout support_simple_spinner_dropdown_item 0x7f03001d
-int layout toggle_button 0x7f03001e
-int layout view_distance 0x7f03001f
-int layout view_region 0x7f030020
+int layout support_simple_spinner_dropdown_item 0x7f03001c
+int layout toggle_button 0x7f03001d
+int layout view_left 0x7f03001e
+int layout view_middle 0x7f03001f
 int menu main 0x7f0c0000
 int string abc_action_bar_home_description 0x7f050000
 int string abc_action_bar_up_description 0x7f050001

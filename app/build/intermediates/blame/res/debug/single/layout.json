@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
         "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/abc_action_bar_tabbar.xml",
@@ -60,6 +60,10 @@
         "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_decor_overlay.xml"
     },
     {
+        "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/view_middle.xml",
+        "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/src/main/res/layout/view_middle.xml"
+    },
+    {
         "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_menu_item_layout.xml"
     },
@@ -78,6 +82,10 @@
     {
         "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/abc_action_bar_decor_include.xml",
         "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/view_left.xml",
+        "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/src/main/res/layout/view_left.xml"
     },
     {
         "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
@@ -104,16 +112,8 @@
         "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/view_distance.xml",
-        "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/src/main/res/layout/view_distance.xml"
-    },
-    {
         "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/toggle_button.xml",
         "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/src/main/res/layout/toggle_button.xml"
-    },
-    {
-        "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/fragment_main.xml",
-        "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/src/main/res/layout/fragment_main.xml"
     },
     {
         "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
@@ -126,9 +126,5 @@
     {
         "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/merged/debug/layout/view_region.xml",
-        "source": "/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/src/main/res/layout/view_region.xml"
     }
 ]

@@ -11,18 +11,6 @@ import com.example.adapter.TextAdapter;
 import com.example.expandtabview.R;
 
 
-import com.example.adapter.TextAdapter;
-import com.example.expandtabview.R;
-
-import android.content.Context;
-import android.util.AttributeSet;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.ListView;
-import android.widget.RelativeLayout;
-import android.widget.Toast;
-
-
 public class ViewLeft extends RelativeLayout implements ViewBaseAction{
 
     private ListView mListView;
@@ -56,7 +44,7 @@ public class ViewLeft extends RelativeLayout implements ViewBaseAction{
     private void init(Context context) {
         mContext = context;
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        inflater.inflate(R.layout.view_distance, this, true);
+        inflater.inflate(R.layout.view_left, this, true);
         setBackgroundDrawable(getResources().getDrawable(R.drawable.choosearea_bg_left));
         mListView = (ListView) findViewById(R.id.listView);
         adapter = new TextAdapter(context, items, R.drawable.choose_item_right, R.drawable.choose_eara_item_selector);

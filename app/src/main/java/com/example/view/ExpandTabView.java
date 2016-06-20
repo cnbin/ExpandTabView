@@ -203,12 +203,12 @@ public class ExpandTabView extends LinearLayout implements OnDismissListener {
 
 	private OnButtonClickListener mOnButtonClickListener;
 
-	/**
-	 * 设置tabitem的点击监听事件
-	 */
-	public void setOnButtonClickListener(OnButtonClickListener l) {
-		mOnButtonClickListener = l;
-	}
+//	/**
+//	 * 设置tabitem的点击监听事件
+//	 */
+//	public void setOnButtonClickListener(OnButtonClickListener l) {
+//		mOnButtonClickListener = l;
+//	}
 
 	/**
 	 * 自定义tabitem点击回调接口

@@ -2,10 +2,9 @@ package com.example.view;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
+
 
 import android.content.Context;
-import android.graphics.Region;
 import android.util.AttributeSet;
 import android.util.SparseArray;
 import android.view.LayoutInflater;
@@ -40,35 +39,35 @@ public class ViewMiddle extends LinearLayout implements ViewBaseAction {
 		init(context);
 	}
 
-	public void updateShowText(String showArea, String showBlock) {
-		if (showArea == null || showBlock == null) {
-			return;
-		}
-		for (int i = 0; i < groups.size(); i++) {
-			if (groups.get(i).equals(showArea)) {
-				earaListViewAdapter.setSelectedPosition(i);
-				childrenItem.clear();
-				if (i < children.size()) {
-					childrenItem.addAll(children.get(i));
-				}
-				tEaraPosition = i;
-				break;
-			}
-		}
-		for (int j = 0; j < childrenItem.size(); j++) {
-			if (childrenItem.get(j).replace("全部科室", "").equals(showBlock.trim())) {
-				plateListViewAdapter.setSelectedPosition(j);
-				tBlockPosition = j;
-				break;
-			}
-		}
-		setDefaultSelect();
-	}
+//	public void updateShowText(String showArea, String showBlock) {
+//		if (showArea == null || showBlock == null) {
+//			return;
+//		}
+//		for (int i = 0; i < groups.size(); i++) {
+//			if (groups.get(i).equals(showArea)) {
+//				earaListViewAdapter.setSelectedPosition(i);
+//				childrenItem.clear();
+//				if (i < children.size()) {
+//					childrenItem.addAll(children.get(i));
+//				}
+//				tEaraPosition = i;
+//				break;
+//			}
+//		}
+//		for (int j = 0; j < childrenItem.size(); j++) {
+//			if (childrenItem.get(j).replace("全部科室", "").equals(showBlock.trim())) {
+//				plateListViewAdapter.setSelectedPosition(j);
+//				tBlockPosition = j;
+//				break;
+//			}
+//		}
+//		setDefaultSelect();
+//	}
 
 	private void init(Context context) {
 		LayoutInflater inflater = (LayoutInflater) context
 				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		inflater.inflate(R.layout.view_region, this, true);
+		inflater.inflate(R.layout.view_middle, this, true);
 		regionListView = (ListView) findViewById(R.id.listView);
 		plateListView = (ListView) findViewById(R.id.listView2);
 		setBackgroundDrawable(getResources().getDrawable(
@@ -163,7 +162,7 @@ public class ViewMiddle extends LinearLayout implements ViewBaseAction {
 
 
 		LinkedList<String> tItem8 = new LinkedList<String>();
-		tItem8.add("妇科1");
+		tItem8.add("女科1");
 		children.put(8, tItem8);
 
 

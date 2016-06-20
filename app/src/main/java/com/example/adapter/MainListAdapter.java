@@ -26,7 +26,7 @@ public class MainListAdapter extends BaseAdapter {
     private static class ViewHolder {
 
         TextView tvTitle;
-        IconTextView iconTextView;
+
 
     }
 

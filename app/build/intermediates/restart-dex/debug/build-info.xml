@@ -4,24 +4,30 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="312123117863418"
+    timestamp="313001490838891"
     token="7063036813502232904" >
 
     <task
         name="javac"
-        duration="1046" />
+        duration="566" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="51" />
+        duration="43" />
     <task
         name="verifier"
-        duration="19" />
+        duration="18" />
 
     <artifact
+        location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
         location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
         type="DEX" />
 
     <build timestamp="311176049643223" >
@@ -29,9 +35,20 @@
             location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="312123117863418" >
+    <build timestamp="312871944859566" >
+        <artifact
+            location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="313001490838891" >
+        <artifact
+            location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
         <artifact
             location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
             type="DEX" />
     </build>
 
