@@ -90,9 +90,10 @@ public class MainActivity extends Activity {
 		mViewArray.add(viewRight);
 
 		ArrayList<String> mTextArray = new ArrayList<String>();
-		mTextArray.add("距离");
-		mTextArray.add("区域");
-		mTextArray.add("距离");
+		//此处用法暂时不知道
+		mTextArray.add("");
+		mTextArray.add("");
+		mTextArray.add("");
 		expandTabView.setValue(mTextArray, mViewArray);
 
 		expandTabView.setTitle(viewLeft.getShowText(), 0);
@@ -138,7 +139,16 @@ public class MainActivity extends Activity {
 		if (position >= 0 && !expandTabView.getTitle(position).equals(showText)) {
 			expandTabView.setTitle(showText, position);
 		}
-		Toast.makeText(MainActivity.this, showText, Toast.LENGTH_SHORT).show();
+		//Toast.makeText(MainActivity.this, showText, Toast.LENGTH_SHORT).show();
+
+
+		String str1 = viewLeft.getShowText();
+		String str2 = viewMiddle.getShowText();
+		String str3 = viewRight.getShowText();
+		String str = str1+str2+str3;
+
+
+		Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
 
 	}
 	
