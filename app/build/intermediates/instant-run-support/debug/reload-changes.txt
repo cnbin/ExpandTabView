@@ -1,13 +1,2 @@
-CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/view/ViewRight$override.class
-CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/expandtabview/R$id$override.class
-CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/expandtabview/R$integer$override.class
-CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/expandtabview/R$styleable$override.class
-CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/view/ViewLeft$override.class
-CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/adapter/MainListAdapter$override.class
-CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/expandtabview/R$override.class
 CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/view/ViewMiddle$override.class
-CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/expandtabview/R$string$override.class
-CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/expandtabview/R$menu$override.class
-CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/expandtabview/R$style$override.class
-CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/expandtabview/R$layout$override.class
+CHANGED,/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

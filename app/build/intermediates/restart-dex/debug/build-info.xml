@@ -4,53 +4,40 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="329188832894459"
+    timestamp="336466112033792"
     token="7063036813502232904" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="985" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="97" />
     <task
         name="verifier"
-        duration="0" />
+        duration="17" />
 
     <artifact
-        location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
+        location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+        type="DEX" />
 
-    <build timestamp="326454226688905" >
+    <build timestamp="333689366474284" >
         <artifact
             location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="327284754463139" >
-        <artifact
-            location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="328146837490709" >
-        <artifact
-            location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="328968530894639" >
+    <build timestamp="336063225129855" >
         <artifact
             location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
             type="DEX" />
+    </build>
+    <build timestamp="336466112033792" >
         <artifact
             location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
             type="DEX" />
-    </build>
-    <build timestamp="329188832894459" >
-        <artifact
-            location="/Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

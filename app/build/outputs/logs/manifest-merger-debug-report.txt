@@ -15,6 +15,10 @@ ADDED from /Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/src/main/AndroidM
 		INJECTED from /Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/src/main/AndroidManifest.xml:6:22-64
 uses-sdk
 ADDED from /Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/src/main/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:20.0.0] /Users/wuyongmin/Desktop/menuDemo/ExpandTabView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/AndroidManifest.xml:16:5-42
