@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.expandtabview.R;
@@ -25,8 +26,11 @@ public class MainListAdapter extends BaseAdapter {
 
     private static class ViewHolder {
 
-        TextView tvTitle;
-
+        ImageView ivUserImg;
+        TextView tvUserName;
+        TextView tvDepartment;
+        TextView tvJob;
+        TextView tvProfile;
 
     }
 
@@ -54,21 +58,30 @@ public class MainListAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        if (convertView == null) {
+//        if (convertView == null) {
 
-            convertView = LayoutInflater.from(context).inflate(R.layout.frag_home_items, null);
-            viewHolder.tvTitle = (TextView) convertView.findViewById(R.id.tvTitle);
+            convertView = LayoutInflater.from(context).inflate(R.layout.mainlist_item, null);
 
+            viewHolder.ivUserImg = (ImageView) convertView.findViewById(R.id.ivUserImg);
+            viewHolder.tvUserName = (TextView)convertView.findViewById(R.id.tvUserName);
+            viewHolder.tvDepartment = (TextView)convertView.findViewById(R.id.tvDepartment);
+            viewHolder.tvJob = (TextView)convertView.findViewById(R.id.tvJob);
+            viewHolder.tvProfile = (TextView)convertView.findViewById(R.id.tvProfile);
 
             convertView.setTag(viewHolder);
-        }
-        else
-        {
-            viewHolder = (ViewHolder) convertView.getTag();
-        }
+//        }
 
+//        else
+//        {
+//            viewHolder = (ViewHolder) convertView.getTag();
+//        }
+//
         HomeModel home = list.get(position);
-        viewHolder.tvTitle.setText(home.getTitle());
+
+        viewHolder.tvUserName.setText(home.getTvUserName());
+        viewHolder.tvDepartment.setText(home.getTvDepartment());
+        viewHolder.tvJob.setText(home.getTvJob());
+        viewHolder.tvProfile.setText(home.getTvProfile());
 
         return convertView;
     }

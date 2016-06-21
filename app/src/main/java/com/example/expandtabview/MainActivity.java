@@ -52,14 +52,28 @@ public class MainActivity extends Activity {
 
 		listView = (ListView) findViewById(R.id.listView3);
 
-		String[] array =  new String[] {"考勤打卡", "考勤查询", "历史轨迹","通讯录","定时上传记录"};
+		String[] tvUserNameArray =  new String[]{
+				"John","Mike","Nick","John","Mike","Nick","John","Mike","Nick",
+  				"John","Mike","Nick","John","Mike","Nick","John","Mike","Nick"};
+
+		String[] tvJobArray =  new String[]{
+				"主治医师","副主任医师","医师","主治医师","副主任医师","医师","主治医师","副主任医师","医师",
+				"主治医师","副主任医师","医师","主治医师","副主任医师","医师","主治医师","副主任医师","医师"};
+
+		String[] tvDepartmentArray =  new String[]{
+				"妇科","儿科","耳眼鼻喉科","精神科","外科","内科","肿瘤科","小儿麻痹科","神经外科",
+				"神经内科","小二科","保健科","妇科","儿科","耳眼鼻喉科","妇科","儿科","耳眼鼻喉科"};
+
+		String[] tvProfileArray =  new String[]{
+				"南方医科大学眼科博士","妇产科经验丰富","多年研究小二科","毕业于华南理工大学,精通内科,外科,保健科,1969年出生","xxxxxxtttxrrrrrrrrr","yyyyyyyy","xxxxxx","xxxxxx","yyyyyyyy",
+				"xxxxxx","xxxxxx","yyyyyyyy","xxxxxx","xxxxxx","yyyyyyyy","xxxxxx","xxxxxx","yyyyyyyy"};
+
 
 		homeList = new ArrayList<HomeModel>();
 
-		for(int i=0;i<array.length;i++) {
+		for(int i=0;i<tvUserNameArray.length;i++) {
 
-			homeList.add(new HomeModel(array[i]));
-
+			homeList.add(new HomeModel(tvUserNameArray[i],tvDepartmentArray[i],tvJobArray[i],tvProfileArray[i]));
 		}
 
 		adapter = new MainListAdapter(this,homeList);
@@ -75,9 +89,9 @@ public class MainActivity extends Activity {
 
 			HomeModel model = homeList.get(position);
 
-			if(model.getTitle().equals("考勤打卡")) {
+			if(model.getTvDepartment().equals("妇科")) {
 
-				Toast.makeText(MainActivity.this, "考勤打卡", Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, "选择妇科", Toast.LENGTH_SHORT).show();
 
 			}
 		}

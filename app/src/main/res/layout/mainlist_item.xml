@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="50dp"
+    android:id="@+id/manlist_item">
+
+
+    <ImageView
+              android:id="@+id/ivUserImg"
+              android:src="@drawable/ic_launcher"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="8dp"
+              android:layout_width="40dp"
+              android:layout_height="40dp">
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/ivUserImg"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/tvDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_toRightOf="@+id/tvUserName"
+        android:text="desc"
+        android:textSize="20dp"
+        android:textColor="@color/txt_light_gray"/>
+
+
+    <TextView
+        android:id="@+id/tvJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tvDepartment"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:textColor="@color/txt_light_gray"/>
+
+
+    <TextView
+        android:id="@+id/tvJianJie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/tvUserName"
+        android:layout_toRightOf="@+id/ivUserImg"
+        android:textSize="20dp"
+        android:text="简介:"
+        android:textColor="@color/txt_light_gray"/>
+
+    <TextView
+        android:id="@+id/tvProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/tvUserName"
+        android:layout_toRightOf="@+id/tvJianJie"
+        android:textSize="20dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/txt_light_gray"/>
+
+    <View
+        android:id="@+id/vLineView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/txt_light_gray"
+        android:layout_below="@id/tvProfile"
+
+        />
+
+</RelativeLayout>

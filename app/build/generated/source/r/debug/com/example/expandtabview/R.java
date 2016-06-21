@@ -697,15 +697,39 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f0a0008;
+        public static final int abc_search_url_text_holo=0x7f0a0020;
         public static final int abc_search_url_text_normal=0x7f0a0000;
         public static final int abc_search_url_text_pressed=0x7f0a0001;
         public static final int abc_search_url_text_selected=0x7f0a0002;
-        public static final int black=0x7f0a0003;
-        public static final int choose_eara_item_press_color=0x7f0a0004;
-        public static final int no_color=0x7f0a0005;
-        public static final int popup_main_background=0x7f0a0006;
-        public static final int white=0x7f0a0007;
+        public static final int alpha_white=0x7f0a0003;
+        public static final int bg_agray=0x7f0a0004;
+        public static final int bg_gray=0x7f0a0005;
+        public static final int bg_gray_bar=0x7f0a0006;
+        public static final int bg_gray_dark=0x7f0a0007;
+        public static final int bg_gray_pressed=0x7f0a0008;
+        public static final int black=0x7f0a0009;
+        public static final int choose_eara_item_press_color=0x7f0a000a;
+        public static final int colorAccent=0x7f0a000b;
+        public static final int colorPrimary=0x7f0a000c;
+        public static final int colorPrimaryDark=0x7f0a000d;
+        public static final int divider_gray=0x7f0a000e;
+        public static final int geek_green=0x7f0a000f;
+        public static final int no_color=0x7f0a0010;
+        public static final int orange=0x7f0a0011;
+        public static final int orange_alpha=0x7f0a0012;
+        public static final int orange_dark=0x7f0a0013;
+        public static final int popup_main_background=0x7f0a0014;
+        public static final int primary=0x7f0a0015;
+        public static final int primary_dark=0x7f0a0016;
+        public static final int primary_light=0x7f0a0017;
+        public static final int red=0x7f0a0018;
+        public static final int transparent=0x7f0a0019;
+        public static final int txt_at_blue=0x7f0a001a;
+        public static final int txt_black=0x7f0a001b;
+        public static final int txt_gray=0x7f0a001c;
+        public static final int txt_light_gray=0x7f0a001d;
+        public static final int txt_white=0x7f0a001e;
+        public static final int white=0x7f0a001f;
     }
     public static final class dimen {
         public static final int abc_action_bar_default_height=0x7f070000;
@@ -849,7 +873,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f0b0001;
         public static final int action_menu_presenter=0x7f0b0002;
         public static final int action_mode_close_button=0x7f0b0024;
-        public static final int action_settings=0x7f0b0041;
+        public static final int action_settings=0x7f0b0048;
         public static final int activity_chooser_view_content=0x7f0b0025;
         public static final int always=0x7f0b0013;
         public static final int beginning=0x7f0b000f;
@@ -869,11 +893,13 @@ containing a value of this type.
         public static final int icon=0x7f0b002a;
         public static final int ifRoom=0x7f0b0015;
         public static final int image=0x7f0b0027;
+        public static final int ivUserImg=0x7f0b003f;
         public static final int listMode=0x7f0b0006;
-        public static final int listView=0x7f0b003f;
-        public static final int listView2=0x7f0b0040;
+        public static final int listView=0x7f0b0046;
+        public static final int listView2=0x7f0b0047;
         public static final int listView3=0x7f0b003d;
         public static final int list_item=0x7f0b0029;
+        public static final int manlist_item=0x7f0b003e;
         public static final int middle=0x7f0b0011;
         public static final int never=0x7f0b0016;
         public static final int none=0x7f0b0012;
@@ -900,9 +926,14 @@ containing a value of this type.
         public static final int tabMode=0x7f0b0008;
         public static final int title=0x7f0b002b;
         public static final int top_action_bar=0x7f0b0020;
-        public static final int tvTitle=0x7f0b003e;
+        public static final int tvDepartment=0x7f0b0041;
+        public static final int tvJianJie=0x7f0b0043;
+        public static final int tvJob=0x7f0b0042;
+        public static final int tvProfile=0x7f0b0044;
+        public static final int tvUserName=0x7f0b0040;
         public static final int up=0x7f0b0021;
         public static final int useLogo=0x7f0b000e;
+        public static final int vLineView=0x7f0b0045;
         public static final int withText=0x7f0b0017;
     }
     public static final class integer {
@@ -936,7 +967,7 @@ containing a value of this type.
         public static final int activity_main=0x7f030018;
         public static final int choose_eara_item_selector=0x7f030019;
         public static final int choose_item=0x7f03001a;
-        public static final int frag_home_items=0x7f03001b;
+        public static final int mainlist_item=0x7f03001b;
         public static final int support_simple_spinner_dropdown_item=0x7f03001c;
         public static final int toggle_button=0x7f03001d;
         public static final int view_left=0x7f03001e;

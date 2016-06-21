@@ -5,32 +5,71 @@ package model;
  */
 public class HomeModel {
 
+    private String ivUserImg;
+    private String tvUserName;
+    private String tvDepartment;
+    private String tvJob;
+    private String tvProfile;
 
-    private  String title;
 
-    private  String img;
-
-    public String getImg() {
-        return img;
+    public String getTvJob() {
+        return tvJob;
     }
 
-    public void setImg(String img) {
-        this.img = img;
+    public void setTvJob(String tvJob) {
+        this.tvJob = tvJob;
     }
 
-    public String getTitle() {
-        return title;
+    public String getIvUserImg() {
+        return ivUserImg;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setIvUserImg(String ivUserImg) {
+        this.ivUserImg = ivUserImg;
+    }
+
+    public String getTvUserName() {
+        return tvUserName;
+    }
+
+    public void setTvUserName(String tvUserName) {
+        this.tvUserName = tvUserName;
+    }
+
+    public String getTvDepartment() {
+        return tvDepartment;
+    }
+
+    public void setTvDepartment(String tvDepartment) {
+        this.tvDepartment = tvDepartment;
+    }
+
+    public String getTvProfile() {
+        return tvProfile;
+    }
+
+    public void setTvProfile(String tvProfile) {
+        this.tvProfile = tvProfile;
     }
 
 
-    public HomeModel (String title) {
+    public HomeModel (String ivUserImg,String tvUserName,String tvDepartment,String tvJob,String tvProfile) {
 
-        setTitle(title);
+        setIvUserImg(ivUserImg);
+        setTvUserName(tvUserName);
+        setTvDepartment(tvDepartment);
+        setTvJob(tvJob);
+        setTvProfile(tvProfile);
 
     }
+
+    public HomeModel (String tvUserName,String tvDepartment,String tvJob,String tvProfile) {
+
+        setTvUserName(tvUserName);
+        setTvDepartment(tvDepartment);
+        setTvJob(tvJob);
+        setTvProfile(tvProfile);
+    }
+
 
 }
